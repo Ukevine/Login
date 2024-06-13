@@ -1,4 +1,5 @@
 import React from 'react';
+import media from '../../assets/media.png'
 
 const Login = () => {
   return (
@@ -33,9 +34,7 @@ const Login = () => {
           <p className="text-sm text-center text-gray-400">Don't have an account? <a href="#" className="text-blue-500">Sign up</a></p>
         </div>
         <div className="flex justify-center mt-4">
-          <a href="#" className="text-gray-700 mx-2">Facebook</a>
-          <a href="#" className="text-gray-700 mx-2">Twitter</a>
-          <a href="#" className="text-gray-700 mx-2">Google</a>
+         <img src={media}/>
         </div>
       </div>
     </div>
