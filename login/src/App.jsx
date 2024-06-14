@@ -6,7 +6,7 @@ export default function App() {
   return (
    <>
    <Back/>
-   <Login/>
+   {/* <Login/> */}
    
 
    
