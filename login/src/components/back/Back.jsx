@@ -1,5 +1,7 @@
 import React from 'react';
-import media from '../../assets/media.png'
+import facebook from '../../assets/facebook.png'
+import instagram from '../../assets/instagram.png'
+import twitter from '../../assets/twitter.png'
 
 const Back = () => {
   return (
@@ -33,11 +35,14 @@ const Back = () => {
         <div className="mt-6">
           <button className="w-full bg-purple-400  text-white px-4 py-2 rounded-lg">Login</button>
         </div>
-        <div className='ml-20 text-sm font-medium mt-2'>
+        <div className='ml-32 text-sm font-medium mt-4'>
           <p>Or Login With</p>
         </div>
-        <div className="flex justify-center mt-4 w-20 h-20">
-         <img src={media}/>
+        <div className="flex justify-center mt-2 w-10 h-10 ml-40 ">
+         <img src={facebook}/>
+         <img src={instagram} className='ml-2'/>
+         <img src={twitter} className='ml-2'/>
+         
         </div>
         <div className="flex justify-center items-center mt-6">
           <p className="text-sm text-center text-black">Don't have an account? <a href="#" className="font-medium text-lg text-black">Sign up</a></p>
