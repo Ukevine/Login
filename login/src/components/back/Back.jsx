@@ -7,7 +7,7 @@ const Back = () => {
   return (
     <div className="relative w-screen h-screen">
       <div className="absolute left-0 top-0 w-1/4 h-2/4 bg-gradient-to-br from-blue-200 via-purple-300 to-pink-200 rounded-br-full"></div>
-      <div> 
+      <div className=''> 
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-xl shadow-lg max-w-md w-full">
         <div className="text-center">
@@ -23,7 +23,7 @@ const Back = () => {
         </div>
         <div className="mt-4">
           <label htmlFor="password" className="block text-sm font-medium text-gray-700"></label>
-          <input type="password" id="password" className="mt-1 px-4 py-2 w-full border rounded-lg" placeholder="P1assword" />
+          <input type="password" id="password" className="mt-1 px-4 py-2 w-full border rounded-lg" placeholder="Password" />
           <div className="flex justify-between items-center mt-2">
             <div className="flex items-center">
               <input id="remember" type="checkbox" className="form-checkbox" />
@@ -33,7 +33,7 @@ const Back = () => {
           </div>
         </div>
         <div className="mt-6">
-          <button className="w-full bg-purple-400  text-white px-4 py-2 rounded-lg">Login</button>
+          <button className="w-full   text-white  bg-gradient-to-b from-blue-300  to-purple-400 px-4 py-2 rounded-lg">Login</button>
         </div>
         <div className='ml-32 text-sm font-medium mt-4'>
           <p>Or Login With</p>
@@ -48,9 +48,15 @@ const Back = () => {
           <p className="text-sm text-center text-black">Don't have an account? <a href="#" className="font-medium text-lg text-black">Sign up</a></p>
         </div>
         
+        
       </div>
+      <div className='h-20 w-20 bg-gradient-to-t from to-blue-300 from-purple-400 rounded-full ml-24 mt-[570px]'>
+
+</div>
     </div>
+    
       </div>
+     
     </div>
   );
 };
