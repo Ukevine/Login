@@ -2,19 +2,21 @@ import React from 'react';
 import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/instagram.png'
 import twitter from '../../assets/twitter.png'
+import { Link } from 'react-router-dom';
+
 
 const Back = () => {
   return (
-    <div className="relative w-screen h-screen">
+    <div className="relative">
       <div className="absolute left-0 top-0 w-1/4 h-2/4 bg-gradient-to-br from-blue-200 via-purple-300 to-pink-200 rounded-br-full"></div>
       <div className=''> 
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded-xl shadow-lg max-w-md w-full">
+      <div className="bg-white p-8 rounded-xl shadow-lg w-[400px] ml-56">
         <div className="text-center">
           <h1 className="text-2xl font-bold">LOGIN</h1>
           <div className="flex justify-center my-4">
             <button className="bg-purple-500 text-white px-4 py-2 rounded-l-lg">LOGIN</button>
-            <button className="bg-blue-100 text-gray-700 px-4 py-2 rounded-r-lg">SIGN UP</button>
+            <button className="bg-blue-100 text-gray-700 px-4 py-2 rounded-r-lg"><Link to={'/signup'}>SIGN UP</Link></button>
           </div>
         </div>
         <div className="mt-4">
@@ -38,14 +40,14 @@ const Back = () => {
         <div className='ml-32 text-sm font-medium mt-4'>
           <p>Or Login With</p>
         </div>
-        <div className="flex justify-center mt-2 w-10 h-10 ml-40 ">
+        <div className="flex justify-center mt-2 w-8 h-10 ml-40 ">
          <img src={facebook}/>
          <img src={instagram} className='ml-2'/>
          <img src={twitter} className='ml-2'/>
          
         </div>
         <div className="flex justify-center items-center mt-6">
-          <p className="text-sm text-center text-black">Don't have an account? <a href="#" className="font-medium text-lg text-black">Sign up</a></p>
+          <p className="text-sm text-center text-black">Don't have an account? <a href="#" className="font-medium text-lg text-black"><Link to={'/signup'}>Sign up</Link></a></p>
         </div>
         
         
