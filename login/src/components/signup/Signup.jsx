@@ -45,14 +45,13 @@ const Signup = () => {
                 <input id="remember" type="checkbox" className="form-checkbox" />
                 <label htmlFor="remember" className="ml-2 block text-sm text-gray-900">Remember me</label>
               </div>
-              <a href="#" className="text-sm text-black">Forgot Password?</a>
-            </div>
+             </div>
           </div>
           <div className="mt-6">
             <button className="w-full text-white bg-gradient-to-b from-blue-300 to-purple-400 px-4 py-2 rounded-lg">Login</button>
           </div>
           <div className="ml-32 text-sm font-medium mt-4">
-            <p>Or Login With</p>
+            <p>Or Signup With</p>
           </div>
           <div className="flex justify-center mt-2 w-8 h-10 ml-40 ">
             <img src={facebook} alt="facebook" />
